@@ -28,6 +28,7 @@ gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'jquery-rails'
 gem 'pg'
+gem 'omniauth-github'
 group :development do
   gem 'better_errors'
   gem 'capistrano', '~> 3.0.1'
