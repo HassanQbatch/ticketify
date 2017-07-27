@@ -1,2 +1,5 @@
 <%# add navigation links to this file %>
-<li><%= link_to 'About', page_path('about') %></li>
+<div class="navigationLinksDiv">
+    <%= link_to 'Home', root_path, class: 'navbar-brand' %>
+	<%= link_to 'About', page_path('about'), class: "navbar-brand" %>
+</div>
