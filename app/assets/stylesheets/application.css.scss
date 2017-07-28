@@ -14,38 +14,14 @@
  *= require_self
  */
 
-#login-div div{
+#login-div div, #sign-up-div div, #forgot-password-div div{
 	padding: 5px;
 }
 
-#login-div{
+#login-div, #sign-up-div, #forgot-password-div{
 	padding: 30px;
 }
 
-.loginButton{
+.loginButton, .signupButton, .resetPasswordButton{
 	width: 100%;
-}
-
-.signupButton{
-	width: 100%;
-}
-
-.resetPasswordButton{
-	width: 100%;
-}
-
-#sign-up-div div{
-	padding: 5px;
-}
-
-#sign-up-div {
-	padding: 30px;
-}
-
-#forgot-password-div div{
-	padding: 5px;
-}
-
-#forgot-password-div{
-	padding: 30px;
 }
