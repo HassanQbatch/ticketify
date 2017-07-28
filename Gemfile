@@ -29,6 +29,8 @@ gem 'high_voltage'
 gem 'jquery-rails'
 gem 'pg'
 gem 'omniauth-github'
+gem 'geo_pattern'
+
 group :development do
   gem 'better_errors'
   gem 'capistrano', '~> 3.0.1'
