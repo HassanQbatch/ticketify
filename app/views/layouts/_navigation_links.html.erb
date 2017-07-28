@@ -1,14 +1,21 @@
 <%# add navigation links to this file %>
-<div class="navigationLinksDiv">
+<div class="container">
+	<div class="row" style="padding: 10px;">
+		<div class="col-md-10">
+		    <li><%= link_to 'Home', root_path, class: 'navbar-brand' %></li>
+			<li><%= link_to 'About', page_path('about'), class: "navbar-brand" %></li>
+		</div>
 
-    <%= link_to 'Home', root_path, class: 'navbar-brand' %>
-	<%= link_to 'About', page_path('about'), class: "navbar-brand" %>
-
-	<% if user_signed_in? %>
-		<%= link_to 'Logout', destroy_user_session_path, method: :delete, class: "navbar-brand",  %>
-	<% else %>
-		<%= link_to 'Login', user_session_path, class: "navbar-brand" %>
-		<%= link_to 'Sign Up', new_user_registration_path, class: "btn btn-info btn-lg" %>
-	<% end %>
-
+		<% if user_signed_in? %>
+			<div class="col-md-1"></div>
+			<div class="col-md-1">
+			<li><%= link_to 'Logout', destroy_user_session_path, method: :delete, class: "navbar-brand" %></li>
+			</div>
+		<% else %>
+			<div class="col-md-2">
+			<li><%= link_to 'Login', user_session_path, class: "navbar-brand" %></li>
+			<li><%= link_to 'Sign Up', new_user_registration_path, class: "btn btn-info btn-lg" %></li>
+			</div>
+		<% end %>
+	</div>
 </div>

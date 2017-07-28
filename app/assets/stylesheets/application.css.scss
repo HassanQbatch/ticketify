@@ -14,11 +14,6 @@
  *= require_self
  */
 
-.navigationLinksDiv{
-	padding: 10px;
-	width: 100%;
-}
-
 #login-div div{
 	padding: 5px;
 }
@@ -35,10 +30,22 @@
 	width: 100%;
 }
 
+.resetPasswordButton{
+	width: 100%;
+}
+
 #sign-up-div div{
 	padding: 5px;
 }
 
 #sign-up-div {
+	padding: 30px;
+}
+
+#forgot-password-div div{
+	padding: 5px;
+}
+
+#forgot-password-div{
 	padding: 30px;
 }
