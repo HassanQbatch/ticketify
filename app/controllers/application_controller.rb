@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
 	before_action :geo_pattern
 	def geo_pattern
-		@pattern = GeoPattern.generate('Mastering Markdown', patterns: :diamonds, base_color: '#000000')
+		@pattern = GeoPattern.generate('Mastering Markdown', patterns: :octagons, base_color: '#000000')
 		@pattern.to_svg
 	end
 end

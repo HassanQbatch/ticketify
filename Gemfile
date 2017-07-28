@@ -30,6 +30,7 @@ gem 'jquery-rails'
 gem 'pg'
 gem 'omniauth-github'
 gem 'geo_pattern'
+gem 'font-awesome-rails'
 
 group :development do
   gem 'better_errors'

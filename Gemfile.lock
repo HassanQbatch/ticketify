@@ -109,6 +109,8 @@ GEM
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
+    font-awesome-rails (4.7.0.2)
+      railties (>= 3.2, < 5.2)
     geo_pattern (1.4.0)
       color (~> 1.5)
     globalid (0.4.0)
@@ -298,6 +300,7 @@ DEPENDENCIES
   devise
   factory_girl_rails
   faker
+  font-awesome-rails
   geo_pattern
   high_voltage
   jbuilder (~> 2.5)
